@@ -145,7 +145,7 @@ Here is a code example to expand on the explanation. Try to figure out what will
 this.whoIsThis = 'TOP'; // Identify this scope
 
 // **1) Defining**
-const fancyObj {
+const fancyObj = {
   whoIsThis: 'FANCY', // Identify this object
   regularF: function () {
     console.log('regularF', this.whoIsThis);
